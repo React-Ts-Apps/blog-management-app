@@ -21,7 +21,7 @@ const SideBar = () => {
   const [open, setOpen] = useState(true);
   return (
     <nav
-      className={`shadow-md h-screen p-2 flex flex-col duration-500 bg-sky-300 ${
+      className={`shadow-md h-screen p-2 flex flex-col duration-500 bg-sky-200 ${
         open ? "w-[250px]" : "w-[90px]"
       } `}
     >
