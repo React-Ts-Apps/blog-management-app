@@ -39,8 +39,6 @@ function Favourites() {
           </div>
         ))
       )}
-      <hr />
-      <Button onClick={() => navigate("/")}>Back to dashboard</Button>
     </div>
   );
 }

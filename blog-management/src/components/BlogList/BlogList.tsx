@@ -1,13 +1,12 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import "./BlogList.css";
 import { blogList } from "../../constants";
 import { useNavigate } from "react-router-dom";
 
 function BlogList() {
   const navigate = useNavigate();
   return (
-    <div className="card-position">
+    <div>
       {blogList.map((blog) => (
         <div key={blog.id}>
           <Card
@@ -35,9 +34,6 @@ function BlogList() {
         </div>
       ))}
       <hr />
-      <Button onClick={() => navigate("/favourites")}>
-        See your favourites
-      </Button>
     </div>
   );
 }
