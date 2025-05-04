@@ -1,5 +1,6 @@
 {
   "name": "blog-management",
+  "homepage": "https://react-ts-apps.github.io/blog-management-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
