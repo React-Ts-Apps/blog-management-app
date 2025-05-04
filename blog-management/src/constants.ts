@@ -16,7 +16,7 @@ export const blogList = [
   },
   {
     id: 2,
-    title: "React Query",
+    title: "React Query Details",
     shortDescription:
       "React Query is a JavaScript library designed to simplify the complex task of data fetching and caching in React applications.",
     longDescription:
